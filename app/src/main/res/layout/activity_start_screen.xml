@@ -8,11 +8,11 @@
     tools:context=".StartScreen">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/start"
         android:layout_width="239dp"
         android:layout_height="49dp"
-        android:text="@string/start"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:text="@string/start_a_big_talk"
+        app:layout_constraintBottom_toTopOf="@+id/tips"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,14 +29,14 @@
         android:text="@string/big_talk"
         android:textSize="80sp"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/tips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -45,6 +45,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/start" />
 
 </android.support.constraint.ConstraintLayout>

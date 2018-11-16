@@ -16,9 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".TipsAndSugestions" />
-        <activity android:name=".GetToKnow"></activity>
+        <activity android:name=".BigTalk" />
+        <activity android:name=".TipsAndSuggestions"></activity>
     </application>
 
 </manifest>

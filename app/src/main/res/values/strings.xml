@@ -2,9 +2,10 @@
     <string name="app_name">BigTalk</string>
     <string name="big_talk">Big Talk</string>
     <string name="start">Start</string>
-    <string name="tips_and_suggestions">Tips and suggestions</string>
-    <string name="get_to_know_each_other">Get to know each other</string>
-    <string name="start_a_discussion">Start a discussion</string>
-    <string name="would_you_rather">Would you rather?</string>
+    <string name="tips_and_suggestions">What\'s a BigTalk?</string>
     <string name="title_activity_tips_and_sugestions">TipsAndSugestions</string>
+    <string name="start_a_big_talk">start a big talk</string>
+    <string name="get_to_know_each_other">get_to_know_each_other</string>
+    <string name="start_a_discussion">start_a_discussion</string>
+    <string name="would_you_rather">would_you_rather</string>
 </resources>
