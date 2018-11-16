@@ -38,6 +38,7 @@ public class BigTalk extends AppCompatActivity {
     int buves = getIntent().getIntExtra("flag", -1);
     List<String> list = read();
     next.setOnClickListener(goNext);
+    menu.setOnClickListener(goMenu);
     now = rand.nextInt(list.size()-1);
     while(now == buves) {
         now = rand.nextInt((list.size()-1) );
@@ -58,7 +59,7 @@ public class BigTalk extends AppCompatActivity {
     View.OnClickListener goMenu = new View.OnClickListener() {
         @Override
         public void onClick(View v){
-            Intent intent = new Intent(context, BigTalk.class);
+            Intent intent = new Intent(context, StartScreen.class);
             intent.putExtra("flag",now);
             context.startActivity(intent);
         }
