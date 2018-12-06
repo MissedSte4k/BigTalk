@@ -16,7 +16,7 @@
         android:ems="10"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="40sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/next"
         app:layout_constraintTop_toTopOf="parent" />
 
